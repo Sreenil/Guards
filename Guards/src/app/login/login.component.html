@@ -1,0 +1,18 @@
+<main>
+    <section>
+<div><label>Username</label>
+<input type="text" #user/>
+</div>
+<div>
+<label>Password</label>
+<input type="text" #pass/>
+</div>
+<div>
+<label>Admin</label>
+<input type="radio" value="admin" [(ngModel)]="admin">
+</div>
+<button type="submit" (click)="login(user.value,pass.value)">Login</button>
+</section>
+</main>
+
+<router-outlet></router-outlet>

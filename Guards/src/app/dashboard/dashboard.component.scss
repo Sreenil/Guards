@@ -1,0 +1,44 @@
+main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+  
+    h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .logout
+    {
+      position: absolute;
+      right: 10px;
+    }
+    .profile
+    {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .setting
+    {
+      position: absolute;
+  
+    }
+  
+    button {
+      border: 2px solid rgb(49, 47, 47);
+      background-color: green;
+      color: white;
+      cursor: pointer;
+      width: 130px;
+      height: 25px;
+      border-radius: 15px;
+    }
+    button:active
+    {
+      scale: 1.1;
+    }
+  }
